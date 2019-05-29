@@ -29,4 +29,11 @@ class PetRockTest {
         rocky.playWithRock();
         assertTrue(rocky.isHappy());
     }
+
+    @Test
+    public void testWetAfterRain() {
+        rocky.rain();
+        assertTrue(rocky.isWet());
+
+    }
 }
